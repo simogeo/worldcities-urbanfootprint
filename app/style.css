@@ -250,6 +250,7 @@ div.foreword {
 	color:#ccc;
 	wrap: word-wrap;
 	text-shadow:1px 1px 1px #000;
+	font-size:0.9em;
 }
 
 .clear:before, .clear:after {
