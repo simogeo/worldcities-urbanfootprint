@@ -81,14 +81,20 @@
 					</ul>
 					<p>3. Finally, the symbol's <strong>size</strong> is proportionnal to the represented data value.</p>
 					<h5>Credits</h5>
-					<p>
-						This dataviz is designed and developed by <a href="http://www.empreinte-urbaine.eu/" title="Access empreinte urbaine website"><img src="./app/eu_logo.png" alt="Logo empreinte urbaine" /></a>. This work is released under <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en">Creative common Licence, Attribution-NonCommercial 3.0 Unported  (CC BY-NC 3.0) </a>
-						<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a>
-					</p>
+					
 					<p>This visualization makes use of <a href="http://d3js.org/">D3js</a> library extended with <a href="http://nvd3.org/">nvd3</a> 
 					for scatter chart generation. It relies on <a href="http://jquery.com/">jQuery</a> and <a href="http://isotope.metafizzy.co/docs/introduction.html">isotope jQuery plugin</a> for presentation, 
 					filtering and sorting (helped by <a href="https://github.com/agilosoftware/objeq">objeq</a>). Webpage use <a href="http://getbootstrap.com/">bootstrap</a> layout. Data is converted from Excel file to json 
 					using <a href="http://www.convertcsv.com/csv-to-json.htm">csv-to-json online</a> converter.</p>
+					<p>
+						This dataviz is designed and developed by <a href="http://www.empreinte-urbaine.eu/" title="Access empreinte urbaine website">
+							<img src="./app/eu_logo.png" alt="Logo empreinte urbaine" /></a>. 
+							This work is released under <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en">
+								Creative common Licence, Attribution-NonCommercial 3.0 Unported  (CC BY-NC 3.0) </a>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en">
+							<img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a>
+							Code and data are available on <a href="https://github.com/simogeo/worldcities-urbanfootprint">github repository</a>.
+					</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -265,6 +271,19 @@ function prepareData(obj) {
 
 
 });
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16897542-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
 </script>
 </body>
