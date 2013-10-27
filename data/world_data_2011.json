@@ -1,0 +1,902 @@
+[
+  {
+    "Rank":1,
+    "City":"Tokyo",
+    "Population":36933000,
+    "Country":" Japan",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Metropolitan area[4]",
+    "Area":13500
+  },
+  {
+    "Rank":2,
+    "City":"Delhi NCR",
+    "Population":22157000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[5]",
+    "Area":3578
+  },
+  {
+    "Rank":3,
+    "City":"Mexico City",
+    "Population":20142000,
+    "Country":" Mexico",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (zona metropolitana)",
+    "Area":7815
+  },
+  {
+    "Rank":4,
+    "City":"New York–Newark",
+    "Population":20104000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":8683
+  },
+  {
+    "Rank":5,
+    "City":"São Paulo",
+    "Population":19649000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":8050
+  },
+  {
+    "Rank":6,
+    "City":"Shanghai",
+    "Population":19554000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":3920
+  },
+  {
+    "Rank":7,
+    "City":"Mumbai",
+    "Population":19422000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":1097
+  },
+  {
+    "Rank":8,
+    "City":"Beijing",
+    "Population":15000000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][10]",
+    "Area":7860
+  },
+  {
+    "Rank":9,
+    "City":"Dhaka",
+    "Population":14930000,
+    "Country":" Bangladesh",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Metropolitan area (megacity)",
+    "Area":1600
+  },
+  {
+    "Rank":10,
+    "City":"Kolkata",
+    "Population":14283000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":1026
+  },
+  {
+    "Rank":11,
+    "City":"Karachi",
+    "Population":13500000,
+    "Country":" Pakistan",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":3530
+  },
+  {
+    "Rank":12,
+    "City":"Buenos Aires",
+    "Population":13370000,
+    "Country":" Argentina",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Urban agglomeration[12]",
+    "Area":4758
+  },
+  {
+    "Rank":13,
+    "City":"Los Angeles–Long Beach–Santa Ana",
+    "Population":13223000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":4320
+  },
+  {
+    "Rank":14,
+    "City":"Rio de Janeiro",
+    "Population":11867000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":5000
+  },
+  {
+    "Rank":15,
+    "City":"Metro Manila",
+    "Population":11654000,
+    "Country":" Philippines",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[13]",
+    "Area":640
+  },
+  {
+    "Rank":16,
+    "City":"Moscow",
+    "Population":11472000,
+    "Country":" Russia",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City Proper[14]",
+    "Area":1080
+  },
+  {
+    "Rank":17,
+    "City":"Osaka–Kobe",
+    "Population":11430000,
+    "Country":" Japan",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[15]",
+    "Area":1220
+  },
+  {
+    "Rank":18,
+    "City":"Cairo",
+    "Population":11431000,
+    "Country":" Egypt",
+    "Geographical_zone":"Middle East",
+    "Statistical_concept":"Official metropolitan area[16]",
+    "Area":6640
+  },
+  {
+    "Rank":19,
+    "City":"Istanbul",
+    "Population":10953000,
+    "Country":" Turkey",
+    "Geographical_zone":"Middle East",
+    "Statistical_concept":"Urban agglomeration[17]",
+    "Area":1830
+  },
+  {
+    "Rank":20,
+    "City":"Lagos",
+    "Population":10788000,
+    "Country":" Nigeria",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"Urban agglomeration[18]",
+    "Area":640
+  },
+  {
+    "Rank":21,
+    "City":"Paris",
+    "Population":10516000,
+    "Country":" France",
+    "Geographical_zone":"Europa",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":2720
+  },
+  {
+    "Rank":22,
+    "City":"Guangzhou",
+    "Population":10486000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":7260
+  },
+  {
+    "Rank":23,
+    "City":"Shenzhen",
+    "Population":10222000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":1950
+  },
+  {
+    "Rank":24,
+    "City":"Seoul",
+    "Population":9751000,
+    "Country":" South Korea",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper (metropolitan city)",
+    "Area":610
+  },
+  {
+    "Rank":25,
+    "City":"Chongqing",
+    "Population":9732000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban aglomeration[8][19]",
+    "Area":7490
+  },
+  {
+    "Rank":26,
+    "City":"Jakarta",
+    "Population":9630000,
+    "Country":" Indonesia",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper[20]",
+    "Area":1360
+  },
+  {
+    "Rank":27,
+    "City":"Chicago",
+    "Population":9545000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":5498
+  },
+  {
+    "Rank":28,
+    "City":"Lima",
+    "Population":8950000,
+    "Country":" Peru",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area[21]",
+    "Area":2810
+  },
+  {
+    "Rank":29,
+    "City":"London",
+    "Population":8923000,
+    "Country":" United Kingdom",
+    "Geographical_zone":"Europa",
+    "Statistical_concept":"Urban agglomeration[22]",
+    "Area":1620
+  },
+  {
+    "Rank":30,
+    "City":"Wuhan",
+    "Population":8904000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":8490
+  },
+  {
+    "Rank":31,
+    "City":"Tianjin",
+    "Population":8535000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][23]",
+    "Area":7130
+  },
+  {
+    "Rank":32,
+    "City":"Chennai",
+    "Population":8523000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":1180
+  },
+  {
+    "Rank":33,
+    "City":"Bogotá",
+    "Population":8502000,
+    "Country":" Colombia",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Urban agglomeration[24]",
+    "Area":1980
+  },
+  {
+    "Rank":34,
+    "City":"Kinshasa",
+    "Population":8415000,
+    "Country":" Democratic Republic of the Congo",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"City proper",
+    "Area":9960
+  },
+  {
+    "Rank":35,
+    "City":"Bengaluru",
+    "Population":8275000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":8057
+  },
+  {
+    "Rank":36,
+    "City":"Bangkok",
+    "Population":8213000,
+    "Country":" Thailand",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Official metropolitan area",
+    "Area":1570
+  },
+  {
+    "Rank":37,
+    "City":"Hyderabad",
+    "Population":7578000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":1860
+  },
+  {
+    "Rank":38,
+    "City":"Lahore",
+    "Population":7352000,
+    "Country":" Pakistan",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":1770
+  },
+  {
+    "Rank":39,
+    "City":"Tehran",
+    "Population":7243000,
+    "Country":" Iran",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper",
+    "Area":660
+  },
+  {
+    "Rank":40,
+    "City":"Dongguan",
+    "Population":7160000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper[8]",
+    "Area":2460
+  },
+  {
+    "Rank":41,
+    "City":"Hong Kong",
+    "Population":7053000,
+    "Country":" Hong Kong",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[25]",
+    "Area":1100
+  },
+  {
+    "Rank":42,
+    "City":"Madrid",
+    "Population":6405000,
+    "Country":" Spain",
+    "Geographical_zone":"Europa",
+    "Statistical_concept":"Metropolitan area",
+    "Area":1700
+  },
+  {
+    "Rank":43,
+    "City":"Chengdu",
+    "Population":6397000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][26]",
+    "Area":2130
+  },
+  {
+    "Rank":44,
+    "City":"Ahmedabad",
+    "Population":6210000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":1300
+  },
+  {
+    "Rank":45,
+    "City":"Foshan",
+    "Population":6208000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][27]",
+    "Area":null
+  },
+  {
+    "Rank":46,
+    "City":"Ho Chi Minh City",
+    "Population":6189000,
+    "Country":" Vietnam",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":2090
+  },
+  {
+    "Rank":47,
+    "City":"Miami",
+    "Population":5971000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":2891
+  },
+  {
+    "Rank":48,
+    "City":"Santiago",
+    "Population":5959000,
+    "Country":" Chile",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Urban agglomeration[28]",
+    "Area":2350
+  },
+  {
+    "Rank":49,
+    "City":"Baghdad",
+    "Population":5891000,
+    "Country":" Iraq",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Metropolitan area",
+    "Area":730
+  },
+  {
+    "Rank":50,
+    "City":"Philadelphia",
+    "Population":5841000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":4661
+  },
+  {
+    "Rank":51,
+    "City":"Nanjing",
+    "Population":5665000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][29]",
+    "Area":6600
+  },
+  {
+    "Rank":52,
+    "City":"Harbin",
+    "Population":5496000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][30]",
+    "Area":4280
+  },
+  {
+    "Rank":53,
+    "City":"Barcelona",
+    "Population":5488000,
+    "Country":" Spain",
+    "Geographical_zone":"Europa",
+    "Statistical_concept":"Metropolitan area",
+    "Area":3240
+  },
+  {
+    "Rank":54,
+    "City":"Toronto",
+    "Population":5485000,
+    "Country":" Canada",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Metropolitan area[31]",
+    "Area":5888
+  },
+  {
+    "Rank":55,
+    "City":"Shenyang",
+    "Population":5469000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":3460
+  },
+  {
+    "Rank":56,
+    "City":"Belo Horizonte",
+    "Population":5407000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":9190
+  },
+  {
+    "Rank":57,
+    "City":"Riyadh",
+    "Population":5227000,
+    "Country":" Saudi Arabia",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper",
+    "Area":1550
+  },
+  {
+    "Rank":58,
+    "City":"Hangzhou",
+    "Population":5189000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][32]",
+    "Area":null
+  },
+  {
+    "Rank":59,
+    "City":"Dallas–Fort Worth",
+    "Population":5143000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":3644
+  },
+  {
+    "Rank":60,
+    "City":"Singapore",
+    "Population":5086000,
+    "Country":" Singapore",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":690
+  },
+  {
+    "Rank":61,
+    "City":"Chittagong",
+    "Population":5069000,
+    "Country":" Bangladesh",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Statistical metropolitan area",
+    "Area":990
+  },
+  {
+    "Rank":62,
+    "City":"Pune",
+    "Population":4951000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":700
+  },
+  {
+    "Rank":63,
+    "City":"Atlanta",
+    "Population":4875000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":5083
+  },
+  {
+    "Rank":64,
+    "City":"Xi'an",
+    "Population":4846000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8][33]",
+    "Area":3550
+  },
+  {
+    "Rank":65,
+    "City":"Saint Petersburg",
+    "Population":4842000,
+    "Country":" Russia",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper[14]",
+    "Area":1150
+  },
+  {
+    "Rank":66,
+    "City":"Luanda",
+    "Population":4790000,
+    "Country":" Angola",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":null
+  },
+  {
+    "Rank":67,
+    "City":"Houston",
+    "Population":4785000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":3355
+  },
+  {
+    "Rank":68,
+    "City":"Boston",
+    "Population":4772000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":4497
+  },
+  {
+    "Rank":69,
+    "City":"Washington, D.C.",
+    "Population":4634000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":2996
+  },
+  {
+    "Rank":70,
+    "City":"Khartoum",
+    "Population":4516000,
+    "Country":" Sudan",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":580
+  },
+  {
+    "Rank":71,
+    "City":"Sydney",
+    "Population":4479000,
+    "Country":" Australia",
+    "Geographical_zone":"Australia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":12140
+  },
+  {
+    "Rank":72,
+    "City":"Guadalajara",
+    "Population":4442000,
+    "Country":" Mexico",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (zona metropolitana)",
+    "Area":2730
+  },
+  {
+    "Rank":73,
+    "City":"Surat",
+    "Population":4438000,
+    "Country":" India",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":326
+  },
+  {
+    "Rank":74,
+    "City":"Alexandria",
+    "Population":4400000,
+    "Country":" Egypt",
+    "Geographical_zone":"Middle East",
+    "Statistical_concept":"City proper",
+    "Area":2970
+  },
+  {
+    "Rank":75,
+    "City":"Detroit",
+    "Population":4364000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration [6]",
+    "Area":3267
+  },
+  {
+    "Rank":76,
+    "City":"Yangon",
+    "Population":4356000,
+    "Country":" Myanmar",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper",
+    "Area":350
+  },
+  {
+    "Rank":77,
+    "City":"Abidjan",
+    "Population":4151000,
+    "Country":" Ivory Coast",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":550
+  },
+  {
+    "Rank":78,
+    "City":"Monterrey",
+    "Population":4100000,
+    "Country":" Mexico",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Metropolitan area (zona metropolitana)",
+    "Area":4010
+  },
+  {
+    "Rank":79,
+    "City":"Ankara",
+    "Population":4074000,
+    "Country":" Turkey",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[34]",
+    "Area":2500
+  },
+  {
+    "Rank":80,
+    "City":"Shantou",
+    "Population":4062000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":null
+  },
+  {
+    "Rank":81,
+    "City":"Salvador",
+    "Population":3947000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":2340
+  },
+  {
+    "Rank":82,
+    "City":"Melbourne",
+    "Population":3896000,
+    "Country":" Australia",
+    "Geographical_zone":"Australia",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":7690
+  },
+  {
+    "Rank":83,
+    "City":"Porto Alegre",
+    "Population":3892000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":9890
+  },
+  {
+    "Rank":84,
+    "City":"Phoenix–Mesa",
+    "Population":3830000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6]",
+    "Area":2069
+  },
+  {
+    "Rank":85,
+    "City":"Montreal",
+    "Population":3808000,
+    "Country":" Canada",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Metropolitan area[31]",
+    "Area":4050
+  },
+  {
+    "Rank":86,
+    "City":"Zhengzhou",
+    "Population":3796000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":null
+  },
+  {
+    "Rank":87,
+    "City":"Johannesburg",
+    "Population":3763000,
+    "Country":" South Africa",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"Official metropolitan area",
+    "Area":1640
+  },
+  {
+    "Rank":88,
+    "City":"Brasília",
+    "Population":3701000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)[35]",
+    "Area":14400
+  },
+  {
+    "Rank":89,
+    "City":"Recife",
+    "Population":3684000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":2770
+  },
+  {
+    "Rank":90,
+    "City":"San Francisco–Oakland",
+    "Population":3681000,
+    "Country":" United States",
+    "Geographical_zone":"North America",
+    "Statistical_concept":"Urban agglomeration[6][36]",
+    "Area":1364
+  },
+  {
+    "Rank":91,
+    "City":"Qingdao",
+    "Population":3680000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":null
+  },
+  {
+    "Rank":92,
+    "City":"Changchun",
+    "Population":3598000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":null
+  },
+  {
+    "Rank":93,
+    "City":"Medellín",
+    "Population":3595000,
+    "Country":" Colombia",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area[37]",
+    "Area":1150
+  },
+  {
+    "Rank":94,
+    "City":"Jinan",
+    "Population":3581000,
+    "Country":" China",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"Urban agglomeration[8]",
+    "Area":null
+  },
+  {
+    "Rank":95,
+    "City":"Fortaleza",
+    "Population":3520000,
+    "Country":" Brazil",
+    "Geographical_zone":"Latin America",
+    "Statistical_concept":"Metropolitan area (região metropolitana)",
+    "Area":4950
+  },
+  {
+    "Rank":96,
+    "City":"Cape Town",
+    "Population":3492000,
+    "Country":" South Africa",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"Urban agglomeration",
+    "Area":690
+  },
+  {
+    "Rank":97,
+    "City":"Jiddah",
+    "Population":3452000,
+    "Country":" Saudi Arabia",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper",
+    "Area":1550
+  },
+  {
+    "Rank":98,
+    "City":"Berlin",
+    "Population":3450000,
+    "Country":" Germany",
+    "Geographical_zone":"Europa",
+    "Statistical_concept":"City proper",
+    "Area":890
+  },
+  {
+    "Rank":99,
+    "City":"Dar es Salaam",
+    "Population":3415000,
+    "Country":" Tanzania",
+    "Geographical_zone":"Africa",
+    "Statistical_concept":"City proper",
+    "Area":null
+  },
+  {
+    "Rank":100,
+    "City":"Busan",
+    "Population":3398000,
+    "Country":" South Korea",
+    "Geographical_zone":"Asia",
+    "Statistical_concept":"City proper (metropolitan city)",
+    "Area":760
+  }
+]

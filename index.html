@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>World largest cities // Urban footprint</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="Simon Georget / Empreinte Urbaine">
+	<script src="./lib/jquery.min.js"></script>
+	<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+	<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+	<link href="./lib/novus-nvd3/nv.d3.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="./app/style.css">
+	
+	
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="./lib/jquery.isotope.min.js"></script>
+	<script src="./lib/numeral.min.js"></script>
+	<script src="./lib/jcanvas.min.js"></script>
+	<script src="./lib/d3.min.js"></script>
+	<script src="./lib/objeq.min.js"></script>
+	<script src="./app/app.js"></script>
+	<script>
+		/** to remove */
+  </script>
+
+
+</head>
+
+<body>
+	
+	<h1>World largest cities - Urban footprint</h1>
+	<div class="clear">
+		<div class="nav">
+			<a data-toggle="modal" href="#chart-off" class="btn btn-primary btn-lg" id="chart-button"><span class="glyphicon glyphicon-stats"></span> Scatter Chart</a>
+			<a data-toggle="modal" href="#legend" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-star"></span> About</a>
+		</div>
+		<div class="foreword"><strong>FOREWORD :</strong> Comparing cities data is tricky! The representation use a 2011 United Nations dataset published 
+		on <a href="http://en.wikipedia.org/wiki/List_of_urban_agglomerations_by_population_(United_Nations)">Wikipedia</a>. 
+		This dataset is an aggregation of several data providers (national censuses, estimations, regional databases) who do use different methodologies 
+		regarding population count and defining their "urban agglomeration". You may find some more useful information on <a href="http://esa.un.org/unup/CD-ROM/Urban-Agglomerations.htm">UN</a> and <a href="http://en.wikipedia.org/wiki/List_of_urban_agglomerations_by_population_%28United_Nations%29">Wikipedia</a> websites.
+		This dataviz has no other aim than giving a big picture on urban areas main chracteristics and footprint.
+		</div>
+	</div>
+	
+	<div class="modal fade" id="legend">
+		<div class="modal-dialog width-60">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">About</h4>
+				</div>
+				<div class="modal-body">
+					<h5>Inspiration</h5>
+					<p>This datavizualisation is inspired by <a href="http://geographyeducation.org/articles/comparing-urban-footprints/">
+						http://geographyeducation.org/articles/comparing-urban-footprints/</a> 
+						(<a href="http://matthartzell.blogspot.fr/2013/09/infogeographic-comparing-urban.html">original article</a>). 
+						Reading Matt Hartzell's article I wanted to explore a schematic and interactive way of visualising urban footprint differences from a city to another.</p>
+					<h5 class="modal-title">Legend</h5>
+					<p>
+					Three types of data are available for displaying : <strong>population</strong> (default), <strong>area</strong>, <strong>surface/inhabitant</strong>. 
+					This datavisualization principles are simply based on <strong>colors</strong> / <strong>shapes</strong> and <strong>sizes</strong> (proportionnal).</p>
+					<p>1. The <strong>color</strong> variable refers to the geographical zones : </p>
+					<ul id="gz-legend">
+						<li><span class="legend-block" data-fetch="africa"></span> Africa</li>
+						<li><span class="legend-block" data-fetch="asia"></span> Asia</li>
+						<li><span class="legend-block" data-fetch="australia"></span> Australia</li>
+						<li><span class="legend-block" data-fetch="middle east"></span> Middle East</li>
+						<li><span class="legend-block" data-fetch="europa"></span> Europe</li>
+						<li><span class="legend-block" data-fetch="north america"></span> North America</li>
+						<li><span class="legend-block" data-fetch="latin america"></span> Latin America</li>
+					</ul>
+					<p>2. The <strong>shape (symbol)</strong> variable refers to the represented data : </p>
+					<ul>
+						<li>- <em>circle</em> : population (by default)</li>
+						<li>- <em>rectangle</em> : area</li>
+						<li>- <em>pentagon</em> : surface per inhabitant</li>
+					</ul>
+					<p>3. Finally, the symbol's <strong>size</strong> is proportionnal to the represented data value.</p>
+					<h5>Credits</h5>
+					<p>
+						This dataviz is designed and developed by <a href="http://www.empreinte-urbaine.eu/" title="Access empreinte urbaine website"><img src="./app/eu_logo.png" alt="Logo empreinte urbaine" /></a>. This work is released under <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en">Creative common Licence, Attribution-NonCommercial 3.0 Unported  (CC BY-NC 3.0) </a>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a>
+					</p>
+					<p>This visualization makes use of <a href="http://d3js.org/">D3js</a> library extended with <a href="http://nvd3.org/">nvd3</a> 
+					for scatter chart generation. It relies on <a href="http://jquery.com/">jQuery</a> and <a href="http://isotope.metafizzy.co/docs/introduction.html">isotope jQuery plugin</a> for presentation, 
+					filtering and sorting (helped by <a href="https://github.com/agilosoftware/objeq">objeq</a>). Webpage use <a href="http://getbootstrap.com/">bootstrap</a> layout. Data is converted from Excel file to json 
+					using <a href="http://www.convertcsv.com/csv-to-json.htm">csv-to-json online</a> converter.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		
+
+					<div id="chart-container">
+						<div id="scatter-chart" class='ndv3 with-3d-shadow with-transitions'>
+							<svg></svg>
+						</div>
+					</div>
+
+
+	<div id="displaying">
+		<h3>Available data :</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default sort-desc" data-filter="population" data-sort="true">Population</button>
+			<button type="button" class="btn btn-default" data-filter="area" data-sort="false">Area</button>
+			<button type="button" class="btn btn-default" data-filter="surfaceinhabitant" data-sort="false">Surface per inhabitant</button>
+		</div>
+	</div>
+	<div id="filters">
+		<h3>Filtering on geographical area :</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default" data-filter="africa">Africa</button>
+			<button type="button" class="btn btn-default" data-filter="australia">Australia</button>
+			<button type="button" class="btn btn-default" data-filter="asia">Asia</button>
+			<button type="button" class="btn btn-default" data-filter="middle-east">Middle East</button>
+			<button type="button" class="btn btn-default" data-filter="europa">Europa</button>
+			<button type="button" class="btn btn-default" data-filter="north-america">North America</button>
+			<button type="button" class="btn btn-default" data-filter="latin-america">Latin America</button>
+			<button type="button" class="btn btn-default" data-filter="feature">All geographical zones</button>
+		</div>
+	</div>
+
+	<div id="sorting">
+		<h3>Sort by :</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default" data-filter="city" data-sort="true">City name</button>
+			<button type="button" class="btn btn-default" data-filter="country" data-sort="true">Country name</button>
+		</div>
+	</div>
+	
+	<div id="main">
+		<h2 id="title">Data representation : <span class="filter">Population</span> / <span class="gz">All geographical zone</span></h2>
+		<div id="visualization-container"></div>
+	</div>
+	
+		
+	<!-- scatter chart -->
+	<script src="./lib/novus-nvd3/nv.d3.js"></script>
+	<script src="./lib/novus-nvd3/src/tooltip.js"></script>
+	<script src="./lib/novus-nvd3/src/utils.js"></script>
+	<script src="./lib/novus-nvd3/src/models/legend.js"></script>
+	<script src="./lib/novus-nvd3/src/models/axis.js"></script>
+	<script src="./lib/novus-nvd3/src/models/distribution.js"></script>
+	<script src="./lib/novus-nvd3/src/models/scatter.js"></script>
+	<script src="./lib/novus-nvd3/src/models/scatterChart.js"></script>
+	<script>
+$(function() {
+	// $( "#offsetDiv" ).hide();
+	$('#chart-button').click(function() {
+		$( "#chart-container" ).slideToggle( "slow", function() {
+		// Animation complete.
+		});
+	});
+	$( "#chart-container" ).slideToggle();
+	
+
+
+// Return an array of colors associated to geographical zones
+// with specific orders
+function getColorsArray(obj) {
+	
+	var groups = [];
+	var legendcolors = [];
+	
+	for (i = 0; i < obj.length; i++) {
+
+		if(jQuery.inArray( obj[i].Geographical_zone.toLowerCase(), groups ) === -1 ) {
+
+			groups.push(obj[i].Geographical_zone.toLowerCase());
+			legendcolors.push(colors[obj[i].Geographical_zone.toLowerCase()]);
+		}
+	}
+
+	return legendcolors;
+}
+
+//Format A
+var chart;
+nv.addGraph(function() {
+  chart = nv.models.scatterChart()
+                .showDistX(true)
+                .showDistY(true)
+                .useVoronoi(false)
+                .color(d3.scale.category10().range())
+                .transitionDuration(300).color(getColorsArray(serie));
+                ;
+
+  chart.xAxis.axisLabel(_t('Population'));
+  chart.yAxis.axisLabel(_t('Area (in m²)'));
+	
+  chart.xAxis.tickFormat(d3.format('000,f'));
+  chart.yAxis.tickFormat(d3.format('000,f'));
+  
+  chart.tooltipContent(function(key, x, y, e, graph) {
+	  console.log(e);
+        return '<h3>' + e.point.name + '</h3>' +
+        '<p>' + _t('Surface / inhabitant (m²)') + ' : ' +  numeral(e.point.spi).format('0,0.00') + '</p>'
+          //     '<p>' +  y + ' on ' + x + '</p>' 
+      });
+
+   
+   d3.select('#scatter-chart svg')
+      .datum(prepareData(serie))
+      .call(chart);
+
+  nv.utils.windowResize(chart.update);
+
+  chart.dispatch.on('stateChange', function(e) { ('New State:', JSON.stringify(e)); });
+
+  return chart;
+});
+
+function prepareData(obj) {
+	
+	var data = [];
+	var groups = [];
+	
+	
+
+	// we create entities grouped by geographical zones
+	for (i = 0; i < obj.length; i++) {
+		// console.log(obj[i].Geographical_zone);
+		if(jQuery.inArray( obj[i].Geographical_zone, groups ) === -1 ) {
+			// console.log(obj[i].Geographical_zone + " not in array");
+			groups.push(obj[i].Geographical_zone);
+			data.push({
+			  key: obj[i].Geographical_zone,
+			  values: []
+			});
+		}
+	}
+
+	// we populate each groups
+    for (j = 0; j < groups.length; j++) {
+		
+		for(k = 0; k < obj.length; k++) {
+			
+			if(obj[k].Geographical_zone == groups[j]) {
+				
+					data[j].values.push({
+						x: obj[k].Population, 
+						y: obj[k].Area, 
+						size: obj[k].Population, 
+						name: obj[k].City,
+						spi: obj[k].Spi,
+						shape: 'circle'
+					  });
+			}	
+		}
+	}
+
+ 
+	// console.log(data);
+	return data;
+}
+
+
+
+});
+
+</script>
+</body>
+</html>
